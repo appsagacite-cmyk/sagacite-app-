@@ -2,8 +2,9 @@
   "name": "Sagacite - Code de la route belge",
   "short_name": "Sagacite",
   "description": "Application d'entraînement au code de la route belge (Wallonie, Bruxelles, Vlaanderen)",
-  "start_url": "/Sagacite.html",
-  "scope": "/",
+  "id": "/sagacite-app-/Sagacite.html",
+  "start_url": "./Sagacite.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0055A4",
@@ -28,6 +29,43 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot-1-home.png",
+      "sizes": "1080x2030",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Accueil de Sagacite"
+    },
+    {
+      "src": "screenshots/screenshot-2-signs.png",
+      "sizes": "1080x2057",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "407 panneaux belges officiels"
+    },
+    {
+      "src": "screenshots/screenshot-3-lessons.png",
+      "sizes": "1080x2051",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Leçons par chapitre"
+    },
+    {
+      "src": "screenshots/screenshot-4-practice.png",
+      "sizes": "1080x2048",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Exercices et flash cards"
+    },
+    {
+      "src": "screenshots/screenshot-5-exam.png",
+      "sizes": "1080x2211",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Examen blanc"
     }
   ]
 }
